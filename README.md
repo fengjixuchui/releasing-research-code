@@ -6,7 +6,7 @@
 
 Based on analysis of more than 200 Machine Learning repositories, these recommendations facilitate reproducibility and correlate with GitHub stars - for more details, see our [our blog post](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501). 
 
-For NeurIPS 2020 code submissions it is recommended (but not mandatory) to use the [README.md template](#readmemd-template) and check as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
+For NeurIPS 2020 code submissions it is recommended (but not mandatory) to use the [README.md template](templates/README.md) and check as many items on the ML Code Completeness Checklist (described below) as possible. 
 
 ## 📋 README.md template
 
@@ -68,10 +68,11 @@ You can further help the user understand and contextualize your results by linki
 
 ### Hosting pretrained models files
 
-1. [GitHub Releases](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) - versioning, 2GB file limit, free bandwidth
-2. [Google Drive](https://drive.google.com) - versioning, 15GB, free bandwidth
-3. [Dropbox](https://dropbox.com) - versioning, 2GB (paid unlimited), free bandwidth
-4. [AWS S3](https://aws.amazon.com/s3/) - versioning, paid only, paid bandwidth
+1. [Zenodo](https://zenodo.org) - versioning, 50GB, free bandwidth, DOI, provides long-term preservation
+2. [GitHub Releases](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) - versioning, 2GB file limit, free bandwidth
+3. [Google Drive](https://drive.google.com) - versioning, 15GB, free bandwidth
+4. [Dropbox](https://dropbox.com) - versioning, 2GB (paid unlimited), free bandwidth
+5. [AWS S3](https://aws.amazon.com/s3/) - versioning, paid only, paid bandwidth
  
 ### Managing model files
 
@@ -85,11 +86,12 @@ You can further help the user understand and contextualize your results by linki
 
 ### Results leaderboards
 
-1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - with 1600+ leaderboards
+1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - with 2500+ leaderboards
 2. [CodaLab](https://competitions.codalab.org/) - with 450+ leaderboards
 3. [NLP Progress](https://nlpprogress.com/) - with 90+ leaderboards
 4. [EvalAI](https://evalai.cloudcv.org/) - with 50+ leaderboards
-5. [Weights & Biases - Benchmarks](https://www.wandb.com/benchmarks) - with 9+ leaderboards
+5. [Collective Knowledge](https://cKnowledge.io/reproduced-results) - with 40+ leaderboards
+6. [Weights & Biases - Benchmarks](https://www.wandb.com/benchmarks) - with 9+ leaderboards
 
 ### Making project pages
 
